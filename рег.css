@@ -1,0 +1,115 @@
+body{
+	background-color: Purple;
+	 font-family: "Open Sans",  Impact;
+}
+.header{
+    min-width: 90%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+    }
+
+.auf{ 
+  border: none; 
+  background: Fuchsia; 
+  color: yellow !important; 
+  font-weight: 150; 
+  padding: 25px; 
+  text-transform: uppercase; 
+  border-radius: 3px; 
+  display: inline-block; 
+  text-decoration: none; 
+} 
+
+.auf:hover { 
+color: black !important; 
+font-weight: 680 !important; 
+letter-spacing: 4px; 
+background: none; 
+-webkit-box-shadow: 0px 5px 36px -10px rgba(29, 28, 28, 0.68); 
+-moz-box-shadow: 0px 5px 36px -10px rgba(29, 28, 28, 0.68); 
+transition: all 0.5s ease 0s; 
+}
+.logo{
+	font-size: 20px;
+    margin-top: -85px;
+   padding-left: 900px;
+   padding-bottom: px;
+   font-family: 'Lacquer', sans-serif;
+}
+.footer__bla{ 
+width: 100%; 
+height: 100px; 
+
+background-image: url(побвал.jpg); 
+
+align-self: flex-end; 
+justify-self: self-end; 
+
+
+align-items: center; 
+
+} 
+
+.footer__text{ 
+
+color:white; 
+text-transform: uppercase; 
+font-size: 20px; 
+font-family: 'Roboto', sans-serif; 
+font-weight: 300; 
+
+text-align:center; 
+
+
+
+
+
+
+
+} 
+
+
+.logo { 
+text-align: center; 
+font-size: 23px; 
+color: black; 
+letter-spacing: -7px; 
+font-weight: 700; 
+text-transform: uppercase; 
+animation: blur .55s ease-out infinite; 
+text-shadow: 0px 0px 5px #fff, 0px 0px 8px #fff; 
+} 
+@keyframes blur {
+  from {
+    text-shadow:0px 0px 10px #fff,
+      0px 0px 1px #fff, 
+      0px 0px 2px #fff,
+      0px 0px 2px #fff,
+      0px 0px 5px #fff,
+      0px 0px 10px #fff,
+      0px 0px 15px #fff,
+      0px 0px 2px #fff,
+      0px 0px 5px #fff,
+      0px 0px 5px #fff,
+      0px 0px 20px Navy,
+      0px 0px 15px Navy,
+      0px 10px 10px Magenta,
+      0px 10px 10px yellow,
+      0px 10px 10px yellow,
+      0px 10px 10px yellow,
+      0px -10px 10px yellow,
+      0px -10px 30px #7B96B8;
+  }
+}
+.grow:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.shut:hover {
+  background:DeepSkyBlue;
+  border: 5px solid black
+}

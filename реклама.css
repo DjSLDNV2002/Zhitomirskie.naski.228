@@ -1,0 +1,242 @@
+body{
+	background-image:url(вазген.jpg); ;
+	 font-family: "Open Sans",  Impact;
+}
+header{
+    min-width: 90%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+    }
+
+.auf{ 
+  border: none; 
+  background: DeepSkyBlue; 
+  color: #f3ecec !important; 
+  font-weight: 190; 
+  padding: 25px; 
+  text-transform: uppercase; 
+  border-radius: 3px; 
+  display: inline-block; 
+  text-decoration: none; 
+} 
+
+.auf:hover { 
+color: black !important; 
+font-weight: 680 !important; 
+letter-spacing: 4px; 
+background: none; 
+-webkit-box-shadow: 0px 5px 36px -10px rgba(29, 28, 28, 0.68); 
+-moz-box-shadow: 0px 5px 36px -10px rgba(29, 28, 28, 0.68); 
+transition: all 0.5s ease 0s; 
+}
+.logo{
+	font-size: 20px;
+    margin-top: -85px;
+   padding-left: 900px;
+   padding-bottom: px;
+   font-family: 'Lacquer', sans-serif;
+}
+.footer__bla{
+    width: 100%;
+    padding-top: 140px;
+    background-image: url(побвал.jpg);
+    background-position: top;
+    background-position-y: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer__text{
+    color:white;
+    margin-top: -50px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo {
+  text-align: center;
+  font-size: 23px;
+  color: black;
+  letter-spacing: -7px;
+  font-weight: 700;
+  text-transform: uppercase;
+  animation: blur .55s ease-out infinite;
+  text-shadow: 0px 0px 5px #fff, 0px 0px 8px #fff;
+}
+@keyframes blur {
+  from {
+    text-shadow:0px 0px 10px #fff,
+      0px 0px 1px #fff, 
+      0px 0px 2px #fff,
+      0px 0px 2px #fff,
+      0px 0px 5px #fff,
+      0px 0px 10px #fff,
+      0px 0px 15px #fff,
+      0px 0px 2px #fff,
+      0px 0px 5px #fff,
+      0px 0px 5px #fff,
+      0px 0px 20px Maroon,
+      0px 0px 15px Maroon,
+      0px 10px 10px Maroon,
+      0px 10px 10px red,
+      0px 10px 10px red,
+      0px 10px 10px red,
+      0px -10px 10px Maroon,
+      0px -10px 30px #7B96B8;
+  }
+}
+.grow:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.shut:hover {
+  border: 5px solid black
+}
+    .avd_div{margin:30px auto;padding:0;text-align:center;display:block;}
+ .bucn_3_4s{color:#188cb6;border:1px solid #188cb6;background-color:#fff;font-size:18px;font-family:verdana;overflow:hidden;display:inline-block;outline:medium none;padding:10px 70px;position:relative;text-decoration:none;z-index:1;-webkit-box-shadow:0 0 4px #999;-moz-box-shadow:0 0 4px #999;-o-box-shadow:0 0 4px #999;box-shadow:0 0 4px #999;}
+ .bucn_3_4s::after{background-color:#0b7fa9;left:50%;top:50%;height:0;width:150%;transform:translateX(-50%) translateY(-50%);opacity:0.5;position:absolute;content:"";transition:all 0.75s ease 0s;z-index:-1;}
+ .bucn_3_4s:hover::after{height:140%;opacity:1;}
+ .bucn_3_4s:hover,.bucn_3_4s:active{color:#fff;text-shadow:0 1px 2px #333;}
+ *::before, *::after{box-sizing:border-box;}
+
+a.glo{
+ color:#00c6ff;
+ padding: 15px 20px;
+ text-transform: uppercase;
+ width:350px;
+ text-decoration:none;
+ text-align:center;
+ margin:30px 0;
+ display: block;
+ background-image: linear-gradient(to left,transparent,transparent 50%,#00c6ff 50%,#00c6ff);
+ background-position: 100% 0;
+ background-size: 200% 100%;
+ transition: all .25s ease-in;
+ font: 400 18px tahoma;
+ border: 1px solid #00C6FF;
+}
+a.glo:hover {
+background-position: 0 0;
+color:#fff;
+}
+.kek{
+  color:white;
+}
+#body_button{
+  background: #000;
+  height: 300px;
+  margin: 0;
+  padding: 0;
+  color: #ddf;
+  background-image: url(вазген.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 10vh;
+}
+.button_hola,
+.button_hola::before,
+.button_hola::after,
+.button_hola span,
+.button_hola span::before,
+.button_hola span::after
+{
+  transition: all ease .5s;
+}
+ 
+.button_hola{
+  position: relative;
+  display: inline-block;
+  padding: 0.3em;
+  margin: 1em;
+  border: solid 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+ 
+.button_hola:hover
+{
+  box-shadow: 0 0 em .5em rgba(50,50,150,0.5);
+}
+ 
+.button_hola span
+{
+  display: inline-block;
+  width: 100%;
+  padding: 0.6em 2em;
+}
+ 
+.button_hola:hover span
+{
+  background-color: #fff;
+  color: #112;
+}
+ 
+.button_hola::before,
+.button_hola::after,
+.button_hola span::before,
+.button_hola span::after
+{
+  content: '';
+  position: absolute;
+  border: 1px;
+}
+ 
+.button_hola::before,
+.button_hola span::before
+{
+  border-style: solid none;  
+}
+ 
+.button_hola::before,
+.button_hola span::after{      
+  left: 2;
+  top: -0.4em;
+  width: 100%; 
+  height: calc(100% + 0.8em);
+}
+ 
+.button_hola::after,
+.button_hola span::after
+{
+  border-style: none solid;   
+}
+ 
+.button_hola::after,
+.button_hola span::before
+{
+  top: 0;
+  left: 4em;
+  height: 100%;
+  width: calc(100% + 0.8em); 
+}
+ 
+.button_hola:hover::after,
+.button_hola:hover span::after
+{
+  transform: scaleY(0);
+}
+ 
+.button_hola:hover::before,
+.button_hola:hover span::before
+{
+  transform: scaleX(0);
+}
+ 
+.button_hola:hover span::after,
+.button_hola:hover span::before
+{
+  opacity: 0;
+}
+
